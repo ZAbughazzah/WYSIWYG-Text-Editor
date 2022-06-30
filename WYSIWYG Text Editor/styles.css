@@ -1,0 +1,62 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+blockquote {
+    background: #eee;
+    border-radius: 5px;
+    margin: 16px 0;
+}
+
+blockquote p {
+    padding: 15px;
+}
+
+cite {
+    margin: 16px 32px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+[contenteditable='true'] {
+    caret-color: red;
+}
+
+
+
+/**/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+footer ul {
+    grid-template-columns:repeat(4, auto);
+    margin: 0.5rem 0rem;
+    display: grid;
+    height: 100%;
+}
+footer li{
+    list-style: none;
+}
+
+footer{
+    display: grid;
+    background-color: #25554b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.fa{
+    color: white;
+    text-decoration: none;
+}
