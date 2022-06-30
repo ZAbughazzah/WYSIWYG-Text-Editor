@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align:center;
+    padding: 1rem;
+    background-color: #3A50D9FF;
+    color: #e0eff2;
+    font: italic bold 40px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 20.2rem;
+    box-shadow: rgb(43, 115, 175) 0px 0px 10px, rgb(159, 192, 231) 0px 0px 10px;
+    border-radius: 3px;
+    margin: 2rem;
+    width:90%;
+    height: 100%;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}

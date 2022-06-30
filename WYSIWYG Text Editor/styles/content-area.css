@@ -1,0 +1,11 @@
+/*=======content area====*/
+.container .content {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+.container .content * {
+    margin: 0.1rem;
+}

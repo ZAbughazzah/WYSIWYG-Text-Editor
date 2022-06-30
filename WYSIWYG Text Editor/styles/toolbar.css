@@ -1,0 +1,27 @@
+/*=======toolbar==========*/
+.container .toolbar * {
+    display: flex;
+    margin: 0.1rem;
+}
+.container .toolbar .line .box .editor-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .toolbar .line .box .editor-btn:hover,
+.container .toolbar .line .box .editor-btn.active {
+    background-color: #5d70e0;
+    cursor: pointer;
+}
+
+.container .toolbar .line .box .editor-btn.icon img,
+.container .toolbar .line .box .editor-btn.icon.smaller img {
+    width: 1.5rem;
+    padding: 0.7rem;
+    box-sizing: content-box;
+}
+
+.container .toolbar .line:last-child {
+    border-bottom: 2px solid #424242;
+}

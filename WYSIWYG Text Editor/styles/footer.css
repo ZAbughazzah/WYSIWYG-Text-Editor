@@ -1,0 +1,15 @@
+/*=======footer==========*/
+footer{
+    display: grid;
+    width: 100%;
+    background-color: #3A50D9FF;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0.1rem;
+    font-size: 1rem;
+}
