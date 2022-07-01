@@ -63,6 +63,7 @@ function parentTagActive(elem) {
     let toolbarButton;
 
     // active by tag names
+    if(elem.classList.contains('container')) return;
     let tagName = elem.tagName.toLowerCase();
     toolbarButton = document.querySelectorAll(`.toolbar .editor-btn[data-tag-name="${tagName}"]`)[0];
     if(toolbarButton) {
